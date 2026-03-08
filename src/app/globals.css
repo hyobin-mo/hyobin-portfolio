@@ -1,26 +1,136 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #FDF6E3;
+  --foreground: #1A1A1A;
+  --border-color: #000000;
+
+  --yellow: #FFD600;
+  --blue: #A0D4FF;
+  --pink: #FF90E8;
+  --green: #B8F0A0;
+  --orange: #FFB366;
+  --purple: #C8B8FF;
+  --coral: #FF6B6B;
+  --lime: #C4F042;
+
+  --shadow-x: 4px;
+  --shadow-y: 4px;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-bg: var(--background);
+  --color-fg: var(--foreground);
+  --color-border: var(--border-color);
+
+  --color-accent-yellow: var(--yellow);
+  --color-accent-blue: var(--blue);
+  --color-accent-pink: var(--pink);
+  --color-accent-green: var(--green);
+  --color-accent-orange: var(--orange);
+  --color-accent-purple: var(--purple);
+  --color-accent-coral: var(--coral);
+  --color-accent-lime: var(--lime);
+
+  --font-heading: var(--font-space-grotesk);
+  --font-body: var(--font-noto-sans-kr);
+
+  --shadow-brutal: 4px 4px 0px 0px #000;
+  --shadow-brutal-lg: 8px 8px 0px 0px #000;
+  --shadow-brutal-sm: 2px 2px 0px 0px #000;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: auto;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-noto-sans-kr), sans-serif;
+  font-weight: 500;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+.brutal-border {
+  border: 3px solid #000;
+}
+
+.brutal-border-2 {
+  border: 2px solid #000;
+}
+
+.brutal-shadow {
+  box-shadow: 4px 4px 0px 0px #000;
+}
+
+.brutal-shadow-lg {
+  box-shadow: 8px 8px 0px 0px #000;
+}
+
+.brutal-shadow-sm {
+  box-shadow: 2px 2px 0px 0px #000;
+}
+
+.brutal-hover {
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.brutal-hover:hover {
+  transform: translate(4px, 4px);
+  box-shadow: none !important;
+}
+
+.brutal-hover-lift {
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.brutal-hover-lift:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0px 0px #000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-space-grotesk), var(--font-noto-sans-kr), sans-serif;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+.display-text {
+  font-size: clamp(3rem, 10vw, 8rem);
+  font-weight: 800;
+  line-height: 0.95;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background);
+  border-left: 3px solid #000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #000;
+  border: 2px solid var(--background);
+}
+
+::selection {
+  background: var(--yellow);
+  color: #000;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .brutal-hover,
+  .brutal-hover-lift {
+    transition: none !important;
+    transform: none !important;
+  }
 }
