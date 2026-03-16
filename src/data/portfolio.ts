@@ -1,11 +1,11 @@
 export const siteConfig = {
-  name: "유혜승",
-  nameEn: "Hyeseung Yoo",
-  title: "Story Planner",
-  tagline: "상상과 현실을 잇는 스토리 기획자",
-  subtitle: "기획부터 실행까지 모든 것이 가능한",
-  email: "hyeseoish@daum.net",
-  phone: "010-3946-1421",
+  name: "효빈",
+  nameEn: "HYOBIN",
+  title: "Art Communicator",
+  tagline: "당신이 사랑할 문화예술을 전하는",
+  subtitle: "이성과 감성이 균형 잡힌 아트 커뮤니케이터",
+  email: "hyobin_mo@naver.com",
+  phone: "010-9852-0892",
 };
 
 export interface ProjectDetail {
