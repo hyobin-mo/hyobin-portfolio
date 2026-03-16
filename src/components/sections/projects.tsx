@@ -193,7 +193,7 @@ export function ProjectsSection() {
             <h2 className="font-heading font-bold text-4xl md:text-5xl">Projects</h2>
           </div>
           <p className="text-lg opacity-70 mb-12 max-w-xl">
-            앨범부터 시나리오까지, 스토리가 필요한 모든 곳에서 기획하고 실행합니다.
+            문화예술 현장을 이해하고, 기획하고, 소통하고, 실행합니다.
           </p>
         </ScrollReveal>
 
