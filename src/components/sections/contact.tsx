@@ -12,8 +12,7 @@ export function ContactSection() {
           <ScrollReveal>
             <div className="space-y-6">
               <div className="flex items-center gap-4 mb-4">
-                <span className="font-heading font-bold text-sm px-3 py-1
-                               border-2 border-black bg-white rounded-[4px] shadow-brutal-sm">
+                <span className="font-heading font-bold text-sm px-3 py-1 border-2 border-black bg-white rounded-[4px] shadow-brutal-sm">
                   04
                 </span>
                 <h2 className="font-heading font-bold text-4xl md:text-5xl text-white">
@@ -36,14 +35,8 @@ export function ContactSection() {
                   </h3>
                 </div>
                 <div className="space-y-4">
-                  
-                    href={`mailto:${siteConfig.email}`}
-                    className="flex items-center gap-4 p-4
-                             border-2 border-black rounded-[5px] bg-accent-yellow
-                             shadow-brutal-sm brutal-hover font-bold"
-                  >
-                    <span className="w-10 h-10 flex items-center justify-center
-                                   border-2 border-black bg-white rounded-[4px] text-lg">
+                  <a href={`mailto:${siteConfig.email}`} className="flex items-center gap-4 p-4 border-2 border-black rounded-[5px] bg-accent-yellow shadow-brutal-sm brutal-hover font-bold">
+                    <span className="w-10 h-10 flex items-center justify-center border-2 border-black bg-white rounded-[4px] text-lg">
                       ✉
                     </span>
                     <div>
@@ -51,14 +44,8 @@ export function ContactSection() {
                       <p className="font-heading">{siteConfig.email}</p>
                     </div>
                   </a>
-                  
-                    href={`tel:${siteConfig.phone}`}
-                    className="flex items-center gap-4 p-4
-                             border-2 border-black rounded-[5px] bg-accent-green
-                             shadow-brutal-sm brutal-hover font-bold"
-                  >
-                    <span className="w-10 h-10 flex items-center justify-center
-                                   border-2 border-black bg-white rounded-[4px] text-lg">
+                  <a href={`tel:${siteConfig.phone}`} className="flex items-center gap-4 p-4 border-2 border-black rounded-[5px] bg-accent-green shadow-brutal-sm brutal-hover font-bold">
+                    <span className="w-10 h-10 flex items-center justify-center border-2 border-black bg-white rounded-[4px] text-lg">
                       ☏
                     </span>
                     <div>
@@ -66,16 +53,8 @@ export function ContactSection() {
                       <p className="font-heading">{siteConfig.phone}</p>
                     </div>
                   </a>
-                  
-                    href="https://www.instagram.com/hyo_b.m"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-4 p-4
-                             border-2 border-black rounded-[5px] bg-accent-pink
-                             shadow-brutal-sm brutal-hover font-bold"
-                  >
-                    <span className="w-10 h-10 flex items-center justify-center
-                                   border-2 border-black bg-white rounded-[4px] text-lg">
+                  <a href="https://www.instagram.com/hyo_b.m" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 p-4 border-2 border-black rounded-[5px] bg-accent-pink shadow-brutal-sm brutal-hover font-bold">
+                    <span className="w-10 h-10 flex items-center justify-center border-2 border-black bg-white rounded-[4px] text-lg">
                       📷
                     </span>
                     <div>
@@ -83,16 +62,8 @@ export function ContactSection() {
                       <p className="font-heading">@hyo_b.m</p>
                     </div>
                   </a>
-                  
-                    href="https://blog.naver.com/hyo_bm"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-4 p-4
-                             border-2 border-black rounded-[5px] bg-accent-blue
-                             shadow-brutal-sm brutal-hover font-bold"
-                  >
-                    <span className="w-10 h-10 flex items-center justify-center
-                                   border-2 border-black bg-white rounded-[4px] text-lg">
+                  <a href="https://blog.naver.com/hyo_bm" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 p-4 border-2 border-black rounded-[5px] bg-accent-blue shadow-brutal-sm brutal-hover font-bold">
+                    <span className="w-10 h-10 flex items-center justify-center border-2 border-black bg-white rounded-[4px] text-lg">
                       ✍
                     </span>
                     <div>
@@ -100,16 +71,8 @@ export function ContactSection() {
                       <p className="font-heading">blog.naver.com/hyo_bm</p>
                     </div>
                   </a>
-                  
-                    href="https://antiegg.kr/author/hyobm/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-4 p-4
-                             border-2 border-black rounded-[5px] bg-accent-orange
-                             shadow-brutal-sm brutal-hover font-bold"
-                  >
-                    <span className="w-10 h-10 flex items-center justify-center
-                                   border-2 border-black bg-white rounded-[4px] text-lg">
+                  <a href="https://antiegg.kr/author/hyobm/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 p-4 border-2 border-black rounded-[5px] bg-accent-orange shadow-brutal-sm brutal-hover font-bold">
+                    <span className="w-10 h-10 flex items-center justify-center border-2 border-black bg-white rounded-[4px] text-lg">
                       🥚
                     </span>
                     <div>
@@ -119,12 +82,7 @@ export function ContactSection() {
                   </a>
                 </div>
                 <div className="pt-4">
-                  <BrutalButton
-                    color="bg-accent-coral"
-                    className="w-full text-white"
-                    size="lg"
-                    href={`mailto:${siteConfig.email}?subject=문의`}
-                  >
+                  <BrutalButton color="bg-accent-coral" className="w-full text-white" size="lg" href={`mailto:${siteConfig.email}?subject=문의`}>
                     이메일 보내기
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3">
                       <path d="M5 12h14M12 5l7 7-7 7" />
