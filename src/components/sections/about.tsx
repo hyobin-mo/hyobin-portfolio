@@ -36,12 +36,12 @@ export function AboutSection() {
               </h3>
               <div className="space-y-4 text-base md:text-lg leading-relaxed">
                 <p>
-                  K-POP 앨범 기획부터 브랜드 리뉴얼, 오디오 드라마 기획,
-                  그리고 시나리오 작업까지 — 스토리가 필요한 모든 곳에서
-                  기획하고 실행합니다.
+                도슨트, 전시 기획, 콘텐츠 제작까지 —
+                문화예술의 현장을 이해하고
+                수용자의 언어로 전달합니다.
                 </p>
                 <p>
-                  아이디어를 구체화하고, 팀을 구성하고, 현장을 진행하는 것까지.
+                현장에서 쌓은 감각으로 기획하고, 소통하고, 실행하며.
                   {siteConfig.subtitle}.
                 </p>
               </div>
