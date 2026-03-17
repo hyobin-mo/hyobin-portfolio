@@ -180,7 +180,7 @@ export function ProjectsSection() {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 
   return (
-    <section id="projects" className="relative bg-bg py-24 md:py-32">
+    <section id="projects" className="relative py-24 md:py-32" style={{backgroundColor: "#FFD166"}}>
       <div className="absolute inset-x-0 bottom-0 h-[3px] bg-black" />
 
       <div className="mx-auto max-w-7xl px-6">
