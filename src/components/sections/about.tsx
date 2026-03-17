@@ -14,7 +14,7 @@ const skillColors = [
 
 export function AboutSection() {
   return (
-    <section id="about" className="relative bg-accent-blue py-24 md:py-32">
+    <section id="about" className="relative py-24 md:py-32" style={{backgroundColor: "#98B1C4"}}>
       <div className="absolute inset-x-0 bottom-0 h-[3px] bg-black" />
 
       <div className="mx-auto max-w-7xl px-6">
