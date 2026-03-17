@@ -48,7 +48,7 @@ export function BlogPreviewSection() {
             <h2 className="font-heading font-bold text-4xl md:text-5xl">Blog</h2>
           </div>
           <p className="text-lg opacity-70 mb-12 max-w-xl">
-            기획자의 시선으로 바라본 콘텐츠 인사이트
+            아트 커뮤니케이터의 시선으로 바라본 인사이트
           </p>
         </ScrollReveal>
 
