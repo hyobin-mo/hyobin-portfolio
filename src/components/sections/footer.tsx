@@ -37,7 +37,7 @@ export function Footer() {
             &copy; {new Date().getFullYear()} {siteConfig.name}. All rights reserved.
           </p>
           <p className="mt-1">
-            저작물의 저작권은 각 회사에 있으며 기획 작업 중심으로 구성되었습니다.
+            당신에게 닿을 문화예술을 전하는 아트 커뮤니케이터, 효빈입니다.
           </p>
         </div>
       </div>
