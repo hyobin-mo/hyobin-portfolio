@@ -30,7 +30,7 @@ export function HeroSection() {
     <section
       id="hero"
       ref={ref}
-      className="relative min-h-screen flex items-center overflow-hidden bg-accent-yellow"
+      className="relative min-h-screen flex items-center overflow-hidden" style={{backgroundColor: "#1B263B"}}
     >
       <div className="absolute inset-x-0 bottom-0 h-[3px] bg-black" />
 
@@ -50,7 +50,7 @@ export function HeroSection() {
               </motion.div>
 
               <motion.h1
-                className="font-heading font-bold text-5xl md:text-7xl lg:text-8xl tracking-tight leading-[0.95]"
+                className="font-heading font-bold text-5xl md:text-7xl lg:text-8xl tracking-tight leading-[0.95]" style={{color: "#F8F9FA"}}
                 initial={{ opacity: 0, y: 40 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.7, delay: 0.15, ease: [0.22, 1, 0.36, 1] }}
@@ -63,7 +63,7 @@ export function HeroSection() {
               </motion.h1>
 
               <motion.p
-                className="text-lg md:text-xl font-medium max-w-md"
+                className="text-lg md:text-xl font-medium max-w-md" style={{color: "#F8F9FA"}}
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
