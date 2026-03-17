@@ -52,7 +52,7 @@ export function Navigation() {
         <div className="mx-auto max-w-7xl px-6 py-4 flex items-center justify-between">
           <button
             onClick={() => handleNavClick("#hero")}
-            className="font-heading font-bold text-xl tracking-tight"
+            className={`font-heading font-bold text-xl tracking-tight ${!scrolled && isHome ? "text-white" : ""}`}
           >
             {siteConfig.name}
             <span className="text-accent-coral ml-1">.</span>
@@ -63,9 +63,7 @@ export function Navigation() {
               <button
                 key={item.href}
                 onClick={() => handleNavClick(item.href)}
-                className="px-4 py-2 font-heading font-bold text-sm tracking-wide
-                           hover:bg-accent-yellow border-2 border-transparent
-                           hover:border-black rounded-[4px] transition-all duration-100"
+                className={`px-4 py-2 font-heading font-bold text-sm tracking-wide hover:bg-accent-yellow border-2 border-transparent hover:border-black rounded-[4px] transition-all duration-100 ${!scrolled && isHome ? "text-white" : ""}`}
               >
                 {item.label}
               </button>
