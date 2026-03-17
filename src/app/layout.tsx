@@ -18,21 +18,21 @@ const notoSansKR = Noto_Sans_KR({
 });
 
 export const metadata: Metadata = {
-  title: "유혜승 | Story Planner Portfolio",
+  title: "효빈 | Art Communicator Portfolio",
   description:
-    "상상과 현실을 잇는 스토리 기획자 유혜승의 포트폴리오. 앨범 기획, 브랜드 기획, 오디오 드라마, 시나리오.",
+    "당신이 사랑할 문화예술을 전하는 아트 커뮤니케이터 효빈의 포트폴리오. 전시 기획, 도슨트, 문화예술 콘텐츠.",
   keywords: [
-    "스토리 기획자",
+    "아트 커뮤니케이터",
+    "문화예술 기획",
+    "전시 기획",
+    "도슨트",
     "콘텐츠 기획",
-    "앨범 기획",
-    "오디오 드라마",
-    "시나리오",
-    "브랜드 기획",
-    "유혜승",
+    "모효빈",
+    "효빈",
   ],
   openGraph: {
-    title: "유혜승 | Story Planner Portfolio",
-    description: "상상과 현실을 잇는 스토리 기획자",
+    title: "효빈 | Art Communicator Portfolio",
+    description: "당신이 사랑할 문화예술을 전하는 아트 커뮤니케이터",
     type: "website",
     locale: "ko_KR",
   },
