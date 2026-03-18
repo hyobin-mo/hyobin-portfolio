@@ -187,7 +187,7 @@ export function ProjectsSection() {
         <ScrollReveal>
           <div className="flex items-center gap-4 mb-4">
             <span className="font-heading font-bold text-sm px-3 py-1
-                           border-2 border-black bg-accent-yellow rounded-[4px] shadow-brutal-sm">
+                           border-2 border-black bg-white rounded-[4px] shadow-brutal-sm">
               02
             </span>
             <h2 className="font-heading font-bold text-4xl md:text-5xl">Projects</h2>
