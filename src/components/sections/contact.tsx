@@ -13,11 +13,11 @@ export function ContactSection() {
                 <span className="font-heading font-bold text-sm px-3 py-1 border-2 border-black bg-white rounded-[4px] shadow-brutal-sm">
                   04
                 </span>
-                <h2 className="font-heading font-bold text-4xl md:text-5xl text-white">
+                <h2 className="font-heading font-bold text-4xl md:text-5xl text-black">
                   Contact
                 </h2>
               </div>
-              <p className="text-xl md:text-2xl font-bold text-white/90 max-w-md">
+              <p className="text-xl md:text-2xl font-bold text-black/60 max-w-md">
                 모두에게 닿을 문화예술을 전합니다.
                 <br />
                 당신의 이야기를 들려주세요.
