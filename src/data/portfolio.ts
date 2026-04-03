@@ -185,8 +185,5 @@ export const skills = [
 
 export const navItems = [
   { label: "About", href: "#about" },
-  { label: "Curate", href: "#curate" },
-  { label: "Connect", href: "#connect" },
-  { label: "Action", href: "#action" },
   { label: "Blog", href: "#blog" },
 ];
