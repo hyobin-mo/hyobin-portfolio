@@ -69,3 +69,10 @@ export function AboutSection() {
                 <p className="font-bold text-base mb-4 text-teal-700">{card.subtitle}</p>
                 <p className="text-sm text-gray-600 leading-relaxed">{card.detail}</p>
               </BrutalCard>
+            </ScrollReveal>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
