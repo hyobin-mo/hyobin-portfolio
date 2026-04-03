@@ -58,17 +58,18 @@ export function AboutSection() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {aboutCards.map((card, i) => (
             <ScrollReveal key={card.id} delay={0.1 * (i + 2)}>
-              <BrutalCard
-                className="p-8 cursor-pointer hover:translate-y-[-4px] transition-transform duration-200"
-                color="bg-white"
+              <button
+                className="w-full text-left"
                 onClick={() => handleScroll(card.href)}
               >
-                <h3 className="font-heading font-bold text-2xl md:text-3xl mb-3">
-                  {card.title}
-                </h3>
-                <p className="font-bold text-base mb-4 text-teal-700">{card.subtitle}</p>
-                <p className="text-sm text-gray-600 leading-relaxed">{card.detail}</p>
-              </BrutalCard>
+                <BrutalCard className="p-8 hover:translate-y-[-4px] transition-transform duration-200" color="bg-white">
+                  <h3 className="font-heading font-bold text-2xl md:text-3xl mb-3">
+                    {card.title}
+                  </h3>
+                  <p className="font-bold text-base mb-4 text-teal-700">{card.subtitle}</p>
+                  <p className="text-sm text-gray-600 leading-relaxed">{card.detail}</p>
+                </BrutalCard>
+              </button>
             </ScrollReveal>
           ))}
         </div>
