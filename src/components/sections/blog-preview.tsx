@@ -9,7 +9,7 @@ import { BrutalButton } from "@/components/ui/brutal-button";
 const previewPosts = [
   {
     slug: "suhwa-exhibition",
-    title: "국립중앙박물관 서화실 재개관 — 겸재 정선과 서화동원",
+    title: "국립중앙박물관 서화실 재개관, 겸재 정선과 서화동원",
     description: "6개월의 재단장을 마치고 돌아온 서화실, 글씨와 그림의 근원은 같다",
     date: "2026.03",
     tags: ["전시", "국립중앙박물관"],
@@ -17,7 +17,7 @@ const previewPosts = [
   },
   {
     slug: "grim-park",
-    title: "국립현대미술관이 선택한 퀴어 불화 — 박그림 작가",
+    title: "국립현대미술관이 선택한 퀴어 불화,박그림 작가",
     description: "전통 기법으로 현대의 정체성을 그려내는 신예 작가 박그림의 작품 세계",
     date: "2026.03",
     tags: ["작가소개", "현대미술"],
@@ -25,7 +25,7 @@ const previewPosts = [
   },
   {
     slug: "coldplay-viva-la-vida",
-    title: "몰락한 권력자의 회상 — Coldplay, Viva La Vida",
+    title: "몰락한 권력자의 회상, Coldplay - Viva La Vida",
     description: "프리다 칼로의 유작에서 시작된 콜드플레이의 대표곡, 그 깊은 의미를 파헤쳐보다",
     date: "2025.04",
     tags: ["음악", "콜드플레이"],
