@@ -78,16 +78,16 @@ export function HeroSection() {
                 transition={{ duration: 0.5, delay: 0.45 }}
               >
                 <BrutalButton
-                  color="bg-black"
-                  className="text-white"
-                  size="lg"
-                  onClick={() => handleScroll("#projects")}
-                >
-                  Projects
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3">
-                    <path d="M5 12h14M12 5l7 7-7 7" />
-                  </svg>
-                </BrutalButton>
+  color="bg-black"
+  className="text-white"
+  size="lg"
+  onClick={() => handleScroll("#blog")}
+>
+  Blog
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3">
+    <path d="M5 12h14M12 5l7 7-7 7" />
+  </svg>
+</BrutalButton>
                 <BrutalButton
                   variant="secondary"
                   size="lg"
