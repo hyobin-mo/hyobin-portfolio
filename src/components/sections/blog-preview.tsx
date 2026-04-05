@@ -43,7 +43,7 @@ export function BlogPreviewSection() {
           <div className="flex items-center gap-4 mb-4">
             <span className="font-heading font-bold text-sm px-3 py-1
                            border-2 border-black bg-white rounded-[4px] shadow-brutal-sm">
-              03
+              05
             </span>
             <h2 className="font-heading font-bold text-4xl md:text-5xl">Blog</h2>
           </div>
