@@ -125,7 +125,7 @@ export function HeroSection() {
                     스토리
                   </span>
                   <span className="px-3 py-1 text-xs font-bold border-2 border-black bg-accent-orange rounded-full">
-                    브랜드
+                    브랜딩
                   </span>
                 </div>
 
