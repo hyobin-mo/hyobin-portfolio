@@ -125,7 +125,7 @@ export const projects: Project[] = [
     categoryEn: "ACTION",
     color: "accent-orange",
     bgColor: "#4a4540",
-    subtitle: "기획과 소통을 현실로 만드는 실행력",
+    subtitle: "기획과 소통을 현실로 만들며 실행하다",
     role: [
       "콘텐츠 기획·제작·운영 전 과정",
       "셀프 브랜딩 및 브랜드 구축",
@@ -137,7 +137,7 @@ export const projects: Project[] = [
         concept: "문화예술 콘텐츠 셀프 브랜딩 「아트로그」·「모데라토」",
         story:
           "콘텐츠 기획–제작–운영까지 아우르는 실행력과 브랜드 구축 역량 강화.",
-        highlights: ["현장 취재 및 원고 집필 100% 단독 운영", "조회수·독자 데이터 기반 전략 조정"],
+        highlights: ["현장 취재 및 원고 집필 전 과정 운영", "조회수·독자 데이터 기반 전략 조정"],
       },
       {
         title: "문화예술 스터디",
