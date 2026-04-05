@@ -14,14 +14,14 @@ const aboutCards = [
     id: "connect",
     title: "CONNECT",
     subtitle: "콘텐츠 커뮤니케이션력",
-    detail: "도슨트·전시운영·교육프로그램·대학원 수강",
+    detail: "도슨트·전시 운영 스태프·교육 프로그램 보조강사·서포터즈",
     href: "#connect",
   },
   {
     id: "action",
     title: "ACTION",
     subtitle: "프로젝트 실행력",
-    detail: "블로그 운영·아트디깅클럽·아트바젤 취재·기관 협업",
+    detail: "블로그 운영·문화예술 스터디·SNS 기관 협업·해외 문화 행사 취재",
     href: "#action",
   },
 ];
