@@ -36,7 +36,7 @@ export const projects: Project[] = [
     category: "기획하다",
     categoryEn: "CURATE",
     color: "accent-pink",
-    bgColor: "#3d6475",
+    bgColor: "#FFF5CC",
     subtitle: "현장을 이해하고 실행가능한 방향으로 기획하다",
     role: [
       "연간 사업 기획안 수립 및 예산 구성",
@@ -80,7 +80,7 @@ export const projects: Project[] = [
     category: "소통하다",
     categoryEn: "CONNECT",
     color: "accent-blue",
-    bgColor: "#9a8fa0",
+    bgColor: "#C7E0F4",
     subtitle: "기획의 의도를 수용자의 언어로 풀어내며 소통하다",
     role: [
       "문화예술 콘텐츠 커뮤니케이션",
@@ -124,7 +124,7 @@ export const projects: Project[] = [
     category: "실행하다",
     categoryEn: "ACTION",
     color: "accent-orange",
-    bgColor: "#4a4540",
+    bgColor: "#FFF5CC",
     subtitle: "기획과 소통을 현실로 만들며 실행하다",
     role: [
       "콘텐츠 기획·제작·운영 전 과정",
