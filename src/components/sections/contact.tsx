@@ -3,7 +3,7 @@ import { ScrollReveal } from "@/components/animations/scroll-reveal";
 import { BrutalCard } from "@/components/ui/brutal-card";
 export function ContactSection() {
   return (
-    <section id="contact" className="relative py-24 md:py-32" style={{backgroundColor: "#FFE699"}}>
+    <section id="contact" className="relative py-24 md:py-32" style={{backgroundColor: "#FFF5CC"}}>
       <div className="absolute inset-x-0 bottom-0 h-[3px] bg-black" />
       <div className="mx-auto max-w-7xl px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
