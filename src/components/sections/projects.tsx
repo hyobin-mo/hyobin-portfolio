@@ -48,16 +48,16 @@ function ProjectSection({ project }: { project: Project }) {
             <span className="font-heading font-bold text-sm px-3 py-1 border-2 border-black bg-white rounded-[4px] shadow-brutal-sm">
               {project.number}
             </span>
-            <h2 className="font-heading font-bold text-4xl md:text-5xl text-white">
+           <h2 className="font-heading font-bold text-4xl md:text-5xl text-black">
               {project.categoryEn}
             </h2>
           </div>
           <div className="mb-12">
-            <p className="font-heading font-bold text-xl text-white/80 mb-1">
+            <p className="font-heading font-bold text-xl text-black/70 mb-1">
               {project.category}
             </p>
             {project.subtitle && (
-              <p className="text-white/60 text-base">{project.subtitle}</p>
+              <p className="text-black/50 text-base">{project.subtitle}</p>
             )}
           </div>
         </ScrollReveal>
