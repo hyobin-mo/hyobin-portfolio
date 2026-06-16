@@ -78,7 +78,7 @@ export function HeroSection() {
                 transition={{ duration: 0.5, delay: 0.45 }}
               >
                 <BrutalButton
-  color="bg-[#C9D3C0]"
+  color="bg-[#F0EFEB]"
   size="lg"
   onClick={() => handleScroll("#writing")}
 >
