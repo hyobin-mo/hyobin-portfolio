@@ -36,7 +36,7 @@ export const projects: Project[] = [
     category: "기획하다",
     categoryEn: "CURATE",
     color: "accent-pink",
-    bgColor: "#FFF5CC",
+    bgColor: "#D6CD95",
     subtitle: "현장을 이해하고 실행가능한 방향으로 기획하다",
     role: [
       "연간 사업 기획안 수립 및 예산 구성",
@@ -80,7 +80,7 @@ export const projects: Project[] = [
     category: "소통하다",
     categoryEn: "CONNECT",
     color: "accent-blue",
-    bgColor: "#C7E0F4",
+    bgColor: "#C7E4CA",
     subtitle: "기획의 의도를 수용자의 언어로 풀어내며 소통하다",
     role: [
       "문화예술 콘텐츠 커뮤니케이션",
@@ -124,7 +124,7 @@ export const projects: Project[] = [
     category: "실행하다",
     categoryEn: "ACTION",
     color: "accent-orange",
-    bgColor: "#FFF5CC",
+    bgColor: "#F0EFEB",
     subtitle: "기획과 소통을 현실로 만들며 실행하다",
     role: [
       "콘텐츠 기획·제작·운영 전 과정",
@@ -183,7 +183,75 @@ export const skills = [
   },
 ];
 
+export interface Article {
+  title: string;
+  description: string;
+  date: string;
+  tags: string[];
+  source: "Blog" | "Antiegg";
+  href: string;
+  external: boolean;
+}
+
+export const articles: Article[] = [
+  {
+    title: "국립중앙박물관 서화실 재개관, 겸재 정선과 서화동원",
+    description: "6개월의 재단장을 마치고 돌아온 서화실. 글씨와 그림의 근원은 같다는 서화동원의 의미를 AI 시대에 되새기다.",
+    date: "2026.03",
+    tags: ["전시", "국립중앙박물관"],
+    source: "Blog",
+    href: "/blog/suhwa-exhibition",
+    external: false,
+  },
+  {
+    title: "국립현대미술관이 선택한 퀴어 불화, 박그림 작가",
+    description: "전통 불화 기법으로 현대의 정체성을 담아낸 신예 작가 박그림. 배채법과 육리문법으로 완성한 독보적인 세계관.",
+    date: "2026.03",
+    tags: ["작가소개", "현대미술"],
+    source: "Blog",
+    href: "/blog/grim-park",
+    external: false,
+  },
+  {
+    title: "몰락한 권력자의 회상, Coldplay — Viva La Vida",
+    description: "프리다 칼로의 유작에서 시작된 콜드플레이의 대표곡. 들뢰라크루아의 회화와 교차하는 그 깊은 의미.",
+    date: "2025.04",
+    tags: ["음악", "콜드플레이"],
+    source: "Blog",
+    href: "/blog/coldplay-viva-la-vida",
+    external: false,
+  },
+  {
+    title: "안티에그 아티클 — 업데이트 예정",
+    description: "안티에그 매거진 파트너 에디터로 발행한 아티클입니다. 링크를 교체해주세요.",
+    date: "2026",
+    tags: ["전시", "에디터 픽"],
+    source: "Antiegg",
+    href: "https://antiegg.kr/author/hyobm/",
+    external: true,
+  },
+  {
+    title: "안티에그 아티클 — 업데이트 예정",
+    description: "안티에그 매거진 파트너 에디터로 발행한 아티클입니다. 링크를 교체해주세요.",
+    date: "2025",
+    tags: ["아트페어", "리뷰"],
+    source: "Antiegg",
+    href: "https://antiegg.kr/author/hyobm/",
+    external: true,
+  },
+  {
+    title: "안티에그 아티클 — 업데이트 예정",
+    description: "안티에그 매거진 파트너 에디터로 발행한 아티클입니다. 링크를 교체해주세요.",
+    date: "2024",
+    tags: ["기획", "에세이"],
+    source: "Antiegg",
+    href: "https://antiegg.kr/author/hyobm/",
+    external: true,
+  },
+];
+
 export const navItems = [
   { label: "About", href: "#about" },
-  { label: "Blog", href: "#blog" },
+  { label: "Portfolio", href: "#curate" },
+  { label: "Writing", href: "#writing" },
 ];

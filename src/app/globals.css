@@ -1,18 +1,23 @@
 @import "tailwindcss";
 
 :root {
-  --background: #FDF6E3;
-  --foreground: #1A1A1A;
+  --background: #F0EFEB;
+  --foreground: #2A2522;
   --border-color: #000000;
 
-  --yellow: #FFD600;
-  --blue: #A0D4FF;
+  --palette-beige: #F0EFEB;
+  --palette-green: #C7E4CA;
+  --palette-warm: #756F6A;
+  --palette-gold: #D6CD95;
+
+  --yellow: #D6CD95;
+  --blue: #C7E4CA;
   --pink: #FF90E8;
-  --green: #B8F0A0;
-  --orange: #FFB366;
+  --green: #C7E4CA;
+  --orange: #E8C87A;
   --purple: #C8B8FF;
-  --coral: #FF6B6B;
-  --lime: #C4F042;
+  --coral: #C4785A;
+  --lime: #B8D4A0;
 
   --shadow-x: 4px;
   --shadow-y: 4px;
@@ -123,7 +128,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 ::selection {
-  background: var(--yellow);
+  background: var(--palette-gold);
   color: #000;
 }
 

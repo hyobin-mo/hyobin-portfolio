@@ -71,8 +71,9 @@ export function Navigation() {
             <button
               onClick={() => handleNavClick("#contact")}
               className="ml-2 px-5 py-2 font-heading font-bold text-sm
-                         bg-accent-coral text-white border-2 border-black rounded-[4px]
+                         border-2 border-black rounded-[4px]
                          shadow-brutal-sm brutal-hover"
+              style={{backgroundColor: "#D6CD95"}}
             >
               Contact
             </button>
@@ -125,8 +126,9 @@ export function Navigation() {
               <motion.button
                 onClick={() => handleNavClick("#contact")}
                 className="mt-4 px-8 py-4 font-heading font-bold text-xl
-                           bg-accent-coral text-white border-3 border-black rounded-[5px]
+                           border-3 border-black rounded-[5px]
                            shadow-brutal brutal-hover"
+                style={{backgroundColor: "#D6CD95"}}
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: navItems.length * 0.1 }}

@@ -30,7 +30,7 @@ export function HeroSection() {
     <section
       id="hero"
       ref={ref}
-      className="relative min-h-screen flex items-center overflow-hidden" style={{backgroundColor: "#1B263B"}}
+      className="relative min-h-screen flex items-center overflow-hidden" style={{backgroundColor: "#2A2522"}}
     >
       <div className="absolute inset-x-0 bottom-0 h-[3px] bg-black" />
 
@@ -81,9 +81,9 @@ export function HeroSection() {
   color="bg-black"
   className="text-white"
   size="lg"
-  onClick={() => handleScroll("#blog")}
+  onClick={() => handleScroll("#writing")}
 >
-  Blog
+  Writing
   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3">
     <path d="M5 12h14M12 5l7 7-7 7" />
   </svg>
@@ -118,20 +118,21 @@ export function HeroSection() {
                   <p className="font-heading text-sm text-fg/60 mt-1">{siteConfig.title}</p>
                 </div>
                 <div className="flex gap-2">
-                  <span className="px-3 py-1 text-xs font-bold border-2 border-black bg-accent-green rounded-full">
+                  <span className="px-3 py-1 text-xs font-bold border-2 border-black rounded-full" style={{backgroundColor: "#D6CD95"}}>
                     기획
                   </span>
-                  <span className="px-3 py-1 text-xs font-bold border-2 border-black bg-accent-blue rounded-full">
-                    스토리
+                  <span className="px-3 py-1 text-xs font-bold border-2 border-black rounded-full" style={{backgroundColor: "#C7E4CA"}}>
+                    소통
                   </span>
-                  <span className="px-3 py-1 text-xs font-bold border-2 border-black bg-accent-orange rounded-full">
-                    브랜딩
+                  <span className="px-3 py-1 text-xs font-bold border-2 border-black rounded-full" style={{backgroundColor: "#F0EFEB"}}>
+                    실행
                   </span>
                 </div>
 
                 <motion.div
-                  className="absolute -top-4 -right-4 w-16 h-16 bg-accent-coral border-3 border-black
-                              rounded-full flex items-center justify-center font-heading font-bold text-white text-sm"
+                  className="absolute -top-4 -right-4 w-16 h-16 border-3 border-black
+                              rounded-full flex items-center justify-center font-heading font-bold text-sm"
+                  style={{ backgroundColor: "#D6CD95", color: "#2A2522" }}
                   animate={{ rotate: [0, 10, -10, 0] }}
                   transition={{ repeat: Infinity, duration: 4, ease: "easeInOut" }}
                 >
