@@ -24,15 +24,15 @@ const aboutCards = [
     id: "action",
     number: "03",
     title: "COOPERATE",
-    subtitle: "함께 만드는 협업능력",
+    subtitle: "함께 만드는 협업력",
     detail: "블로그 운영 · 안티에그 · B2B협업",
     href: "#action",
   },
 ];
 
 const education = [
-  { period: "2022.3 — 현재", role: "예술기획 전공 (석사과정)", org: "홍익대학교 미술대학원" },
-  { period: "2013.2 — 2018.2", role: "역사문화학 전공", org: "숙명여자대학교" },
+  { period: "2022.3 — 현재", org: "홍익대학교 미술대학원 예술기획 전공 (석사과정)" },
+  { period: "2013.2 — 2018.2", org: "숙명여자대학교 역사문화학 전공" },
 ];
 
 const work = [
@@ -43,7 +43,7 @@ const work = [
   { period: "2018.11 — 2019.1", role: "전시팀 인턴", org: "학고재 갤러리" },
 ];
 
-const badgeStyle = { backgroundColor: "#756F6A", color: "#F0EFEB" };
+const badgeStyle = { backgroundColor: "#756F6A", color: "#FFFFFF" };
 
 export function AboutSection() {
   const lenis = useLenis();
@@ -73,7 +73,7 @@ export function AboutSection() {
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 mb-10">
           <ScrollReveal delay={0.1} className="lg:col-span-3">
             <BrutalCard className="p-8 md:p-10 h-full" color="bg-white">
-              <p className="font-heading font-bold text-xs tracking-widest mb-4" style={{ color: "#756F6A" }}>
+              <p className="font-heading font-bold text-xs tracking-widest mb-4" style={{ color: "#2A2522" }}>
                 INTRO
               </p>
               <p className="font-heading font-bold text-xl md:text-2xl leading-snug mb-6">
@@ -99,7 +99,7 @@ export function AboutSection() {
             <BrutalCard className="p-8 h-full" color="bg-white">
               <div className="space-y-6">
                 <div>
-                  <p className="font-heading font-bold text-xs tracking-widest mb-4" style={{ color: "#756F6A" }}>
+                  <p className="font-heading font-bold text-xs tracking-widest mb-4" style={{ color: "#2A2522" }}>
                     EDUCATION
                   </p>
                   <div className="space-y-4">
@@ -107,13 +107,12 @@ export function AboutSection() {
                       <div key={i} className="flex flex-col gap-0.5 pb-4 border-b border-black/10 last:border-0 last:pb-0">
                         <span className="text-xs font-bold" style={{ color: "#756F6A" }}>{e.period}</span>
                         <span className="font-heading font-bold text-sm">{e.org}</span>
-                        <span className="text-xs" style={{ color: "#756F6A" }}>{e.role}</span>
                       </div>
                     ))}
                   </div>
                 </div>
                 <div>
-                  <p className="font-heading font-bold text-xs tracking-widest mb-4" style={{ color: "#756F6A" }}>
+                  <p className="font-heading font-bold text-xs tracking-widest mb-4" style={{ color: "#2A2522" }}>
                     WORK
                   </p>
                   <div className="space-y-4">
