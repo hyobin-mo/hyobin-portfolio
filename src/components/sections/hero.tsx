@@ -87,13 +87,6 @@ export function HeroSection() {
     <path d="M5 12h14M12 5l7 7-7 7" />
   </svg>
 </BrutalButton>
-                <BrutalButton
-                  variant="secondary"
-                  size="lg"
-                  onClick={() => handleScroll("#contact")}
-                >
-                  Contact
-                </BrutalButton>
               </motion.div>
             </div>
 
@@ -108,8 +101,8 @@ export function HeroSection() {
                 <Image
                   src="/images/hero/character.jpg"
                   alt={siteConfig.name}
-                  width={128}
-                  height={128}
+                  width={176}
+                  height={176}
                   className="rounded-full border-3 border-black object-cover"
                 />
                 <div className="text-center">

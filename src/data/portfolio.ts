@@ -256,7 +256,6 @@ export const articles: Article[] = [
 ];
 
 export const navItems = [
-  { label: "About", href: "#about" },
-  { label: "Portfolio", href: "#curate" },
-  { label: "Article", href: "#writing" },
+  { label: "ABOUT", href: "#about" },
+  { label: "PORTFOLIO", href: "#curate" },
 ];
