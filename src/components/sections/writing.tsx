@@ -88,7 +88,7 @@ export function WritingSection() {
 }
 
 function ArticleCard({ article, index }: { article: typeof articles[0]; index: number }) {
-  const accentColors = ["#C9D3C0", "#F5EBC8", "#F0EFEB", "#F5EBC8", "#C9D3C0", "#F0EFEB"];
+  const accentColors = ["#C9D3C0", "#F5EBC8", "#F0EFEB", "#F5EBC8", "#C9D3C0", "#F0EFEB", "#C9D3C0", "#F5EBC8", "#F0EFEB"];
   const accentColor = accentColors[index % accentColors.length];
 
   return (
