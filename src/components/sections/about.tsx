@@ -66,7 +66,7 @@ export function AboutSection() {
             <span className="font-heading font-bold text-sm px-3 py-1 border-2 border-black rounded-[4px] shadow-brutal-sm" style={badgeStyle}>
               00
             </span>
-            <h2 className="font-heading font-bold text-4xl md:text-5xl">ABOUT</h2>
+            <h2 className="font-heading font-bold text-4xl md:text-5xl text-black">ABOUT</h2>
           </div>
         </ScrollReveal>
 
