@@ -155,7 +155,7 @@ export function AboutSection() {
                       <path d="M5 12h14M12 5l7 7-7 7" />
                     </svg>
                   </div>
-                  <h3 className="font-heading font-bold text-2xl md:text-3xl mb-2">
+                  <h3 className="font-heading font-bold text-2xl md:text-3xl mb-2 text-black">
                     {card.title}
                   </h3>
                   <p className="font-bold text-sm mb-3" style={{ color: "#756F6A" }}>{card.subtitle}</p>

@@ -5,7 +5,7 @@ import { ScrollReveal } from "@/components/animations/scroll-reveal";
 import { BrutalCard } from "@/components/ui/brutal-card";
 import type { Project, ProjectDetail } from "@/data/portfolio";
 
-function DetailCard({ detail }: { detail: ProjectDetail }) {
+function DetailCard({ detail, highlightColor }: { detail: ProjectDetail; highlightColor?: string }) {
   return (
     <BrutalCard className="p-6 md:p-8 h-full flex flex-col" color="bg-white">
       <h4 className="font-heading font-bold text-xl mb-2">{detail.title}</h4>
@@ -19,7 +19,8 @@ function DetailCard({ detail }: { detail: ProjectDetail }) {
         {detail.highlights.map((h) => (
           <span
             key={h}
-            className="px-3 py-1 text-xs font-bold border-2 border-black rounded-full" style={{backgroundColor: "#F5EBC8"}}
+            className="px-3 py-1 text-xs font-bold border-2 border-black rounded-full"
+            style={{ backgroundColor: highlightColor ?? "#F5EBC8" }}
           >
             {h}
           </span>
@@ -53,7 +54,7 @@ function ProjectSection({ project }: { project: Project }) {
             </h2>
           </div>
           <div className="mb-12">
-            <p className="font-heading font-bold text-xl text-black/70 mb-1">
+            <p className="font-heading font-bold text-xl text-black mb-1">
               {project.category}
             </p>
             {project.subtitle && (
@@ -65,7 +66,7 @@ function ProjectSection({ project }: { project: Project }) {
         <div className={`grid ${colClass} gap-6`}>
           {project.details.map((detail, i) => (
             <ScrollReveal key={detail.title} delay={0.1 * i}>
-              <DetailCard detail={detail} />
+              <DetailCard detail={detail} highlightColor={project.highlightColor} />
             </ScrollReveal>
           ))}
         </div>

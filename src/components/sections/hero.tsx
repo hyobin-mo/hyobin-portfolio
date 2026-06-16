@@ -78,12 +78,11 @@ export function HeroSection() {
                 transition={{ duration: 0.5, delay: 0.45 }}
               >
                 <BrutalButton
-  color="bg-black"
-  className="text-white"
+  color="bg-[#C9D3C0]"
   size="lg"
   onClick={() => handleScroll("#writing")}
 >
-  Writing
+  ARTICLE
   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3">
     <path d="M5 12h14M12 5l7 7-7 7" />
   </svg>
@@ -125,7 +124,7 @@ export function HeroSection() {
                     소통
                   </span>
                   <span className="px-3 py-1 text-xs font-bold border-2 border-black rounded-full" style={{backgroundColor: "#F0EFEB"}}>
-                    실행
+                    협업
                   </span>
                 </div>
 

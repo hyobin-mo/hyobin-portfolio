@@ -31,7 +31,7 @@ export function WritingSection() {
             >
               04
             </span>
-            <h2 className="font-heading font-bold text-4xl md:text-5xl">ARTICLE</h2>
+            <h2 className="font-heading font-bold text-4xl md:text-5xl text-black">ARTICLE</h2>
           </div>
           <p className="text-base mb-12 max-w-xl" style={{ color: "#756F6A" }}>
             아트 메신저의 시선으로 쓴 블로그와 안티에그 아티클

@@ -23,6 +23,7 @@ export interface Project {
   categoryEn: string;
   color: string;
   bgColor: string;
+  highlightColor?: string;
   subtitle?: string;
   thumbnail?: string;
   role: string[];
@@ -36,7 +37,7 @@ export const projects: Project[] = [
     category: "기획하다",
     categoryEn: "CURATE",
     color: "accent-pink",
-    bgColor: "#F0EFEB",
+    bgColor: "#C9D3C0",
     subtitle: "현장을 이해하고 실행가능한 방향으로 기획하다",
     role: [
       "연간 사업 기획안 수립 및 예산 구성",
@@ -73,7 +74,8 @@ export const projects: Project[] = [
     category: "소통하다",
     categoryEn: "CONNECT",
     color: "accent-blue",
-    bgColor: "#F0EFEB",
+    bgColor: "#F5EBC8",
+    highlightColor: "#C9D3C0",
     subtitle: "기획의 의도를 수용자의 언어로 풀어내며 소통하다",
     role: [
       "문화예술 콘텐츠 커뮤니케이션",
@@ -86,21 +88,21 @@ export const projects: Project[] = [
         concept: "백범김구기념관, KF갤러리, 아뜰리에 에르메스, 세종문화회관",
         story:
           "기획 의도와 수용자의 경험을 이어주는 스토리텔로서 전시 해설 담당.",
-        highlights: ["역사·문화예술 콘텐츠 전달", "영어 도슨트 운영", "2016~2018 다수 기관 활동"],
+        highlights: ["역사·문화예술 콘텐츠 전달", "영어 도슨트 운영"],
       },
       {
         title: "전시 운영 스태프",
         concept: "《어둠 속의 대화》展",
         story:
           "다양한 계층의 관람객 응대, 글로벌 워크숍 International Meeting 운영 보조.",
-        highlights: ["관람객 응대 및 안내", "IM 국내외 내빈 의전 및 통역", "국제적 감각과 상황 대응력 습득"],
+        highlights: ["관람객 응대 및 안내", "IM 국내외 내빈 의전 및 통역"],
       },
       {
         title: "교육 프로그램 보조강사",
         concept: "디뮤지엄 어린이·성인 대상 교육 프로그램 운영 보조",
         story:
           "예술 콘텐츠를 관람객의 경험과 연결하는 교육 및 커뮤니케이션 능력 체득.",
-        highlights: ["《아홉 개의 빛, 아홉 개의 감성》展", "《헤더윅 스튜디오》展", "커뮤니케이션 능력 체득"],
+        highlights: ["《아홉 개의 빛, 아홉 개의 감성》展", "《헤더윅 스튜디오》展"],
       },
     ],
   },
@@ -110,7 +112,7 @@ export const projects: Project[] = [
     category: "협업하다",
     categoryEn: "COOPERATE",
     color: "accent-orange",
-    bgColor: "#F0EFEB",
+    bgColor: "#C9D3C0",
     subtitle: "혼자 쓰는 글에서 함께 만드는 콘텐츠로 협업하다",
     role: [
       "콘텐츠 기획·제작·운영 전 과정",
@@ -128,7 +130,7 @@ export const projects: Project[] = [
         title: "안티에그 매거진",
         concept: "프리랜서 에디터 공동체,\n안티에그 파트너 에디터",
         story: "매달 아젠다에 맞춰 기획안을 작성하고 회의를 거쳐 아티클 발행.",
-        highlights: ["아티클 기획안 및 원고 작성", "기획회의 참여 및 피드백", "큐레이토리얼 방향 설정"],
+        highlights: ["에디토리얼 사이클 참여", "아티클 기획안 작성 및 발행"],
       },
       {
         title: "B2B 협업",
