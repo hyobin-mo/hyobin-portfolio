@@ -6,7 +6,7 @@ import { useLenis } from "lenis/react";
 const aboutCards = [
   {
     id: "curate",
-    number: "02",
+    number: "01",
     title: "CURATE",
     subtitle: "현장 이해 기반 기획력",
     detail: "수림문화재단 · 아트센터이다 · 학고재 · 안티에그",
@@ -14,7 +14,7 @@ const aboutCards = [
   },
   {
     id: "connect",
-    number: "03",
+    number: "02",
     title: "CONNECT",
     subtitle: "콘텐츠 커뮤니케이션력",
     detail: "도슨트 · 전시 운영 스태프 · 교육 프로그램 보조강사 · 서포터즈",
@@ -22,7 +22,7 @@ const aboutCards = [
   },
   {
     id: "action",
-    number: "04",
+    number: "03",
     title: "ACTION",
     subtitle: "프로젝트 실행력",
     detail: "블로그 운영 · 문화예술 스터디 · SNS 기관 협업 · 해외 취재",
@@ -49,14 +49,14 @@ export function AboutSection() {
   };
 
   return (
-    <section id="about" className="relative py-24 md:py-32" style={{ backgroundColor: "#C7E4CA" }}>
-      <div className="absolute inset-x-0 bottom-0 h-[3px] bg-black" />
+    <section id="about" className="relative py-24 md:py-32" style={{ backgroundColor: "#F0EFEB" }}>
+      <div className="absolute inset-x-0 bottom-0 h-[3px]" style={{ backgroundColor: "#756F6A" }} />
       <div className="mx-auto max-w-7xl px-6">
 
         <ScrollReveal>
           <div className="flex items-center gap-4 mb-12">
             <span className="font-heading font-bold text-sm px-3 py-1 border-2 border-black bg-white rounded-[4px] shadow-brutal-sm">
-              01
+              00
             </span>
             <h2 className="font-heading font-bold text-4xl md:text-5xl">About</h2>
           </div>

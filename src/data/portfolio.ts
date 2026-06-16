@@ -32,11 +32,11 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: "curate",
-    number: "02",
+    number: "01",
     category: "기획하다",
     categoryEn: "CURATE",
     color: "accent-pink",
-    bgColor: "#D6CD95",
+    bgColor: "#F0EFEB",
     subtitle: "현장을 이해하고 실행가능한 방향으로 기획하다",
     role: [
       "연간 사업 기획안 수립 및 예산 구성",
@@ -76,11 +76,11 @@ export const projects: Project[] = [
   },
   {
     id: "connect",
-    number: "03",
+    number: "02",
     category: "소통하다",
     categoryEn: "CONNECT",
     color: "accent-blue",
-    bgColor: "#C7E4CA",
+    bgColor: "#F0EFEB",
     subtitle: "기획의 의도를 수용자의 언어로 풀어내며 소통하다",
     role: [
       "문화예술 콘텐츠 커뮤니케이션",
@@ -120,7 +120,7 @@ export const projects: Project[] = [
   },
   {
     id: "action",
-    number: "04",
+    number: "03",
     category: "실행하다",
     categoryEn: "ACTION",
     color: "accent-orange",
@@ -253,5 +253,5 @@ export const articles: Article[] = [
 export const navItems = [
   { label: "About", href: "#about" },
   { label: "Portfolio", href: "#curate" },
-  { label: "Writing", href: "#writing" },
+  { label: "Article", href: "#writing" },
 ];

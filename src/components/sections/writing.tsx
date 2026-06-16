@@ -19,8 +19,8 @@ function SourceBadge({ source }: { source: "Blog" | "Antiegg" }) {
 
 export function WritingSection() {
   return (
-    <section id="writing" className="relative py-24 md:py-32" style={{ backgroundColor: "#C7E4CA" }}>
-      <div className="absolute inset-x-0 bottom-0 h-[3px] bg-black" />
+    <section id="writing" className="relative py-24 md:py-32" style={{ backgroundColor: "#F0EFEB" }}>
+      <div className="absolute inset-x-0 bottom-0 h-[3px]" style={{ backgroundColor: "#756F6A" }} />
 
       <div className="mx-auto max-w-7xl px-6">
         <ScrollReveal>
@@ -29,9 +29,9 @@ export function WritingSection() {
               className="font-heading font-bold text-sm px-3 py-1 border-2 border-black rounded-[4px] shadow-brutal-sm"
               style={{ backgroundColor: "#D6CD95" }}
             >
-              05
+              04
             </span>
-            <h2 className="font-heading font-bold text-4xl md:text-5xl">Writing</h2>
+            <h2 className="font-heading font-bold text-4xl md:text-5xl">Article</h2>
           </div>
           <p className="text-base mb-12 max-w-xl" style={{ color: "#756F6A" }}>
             아트 커뮤니케이터의 시선으로 쓴 블로그와 안티에그 아티클

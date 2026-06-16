@@ -3,15 +3,15 @@ import { ScrollReveal } from "@/components/animations/scroll-reveal";
 import { BrutalCard } from "@/components/ui/brutal-card";
 export function ContactSection() {
   return (
-    <section id="contact" className="relative py-24 md:py-32" style={{backgroundColor: "#D6CD95"}}>
-      <div className="absolute inset-x-0 bottom-0 h-[3px] bg-black" />
+    <section id="contact" className="relative py-24 md:py-32" style={{backgroundColor: "#F0EFEB"}}>
+      <div className="absolute inset-x-0 bottom-0 h-[3px]" style={{backgroundColor: "#756F6A"}} />
       <div className="mx-auto max-w-7xl px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <ScrollReveal>
             <div className="space-y-6">
               <div className="flex items-center gap-4 mb-4">
                 <span className="font-heading font-bold text-sm px-3 py-1 border-2 border-black bg-white rounded-[4px] shadow-brutal-sm">
-                  06
+                  05
                 </span>
                 <h2 className="font-heading font-bold text-4xl md:text-5xl text-black">
                   Contact

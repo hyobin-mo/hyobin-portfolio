@@ -30,9 +30,9 @@ export function HeroSection() {
     <section
       id="hero"
       ref={ref}
-      className="relative min-h-screen flex items-center overflow-hidden" style={{backgroundColor: "#2A2522"}}
+      className="relative min-h-screen flex items-center overflow-hidden" style={{backgroundColor: "#756F6A"}}
     >
-      <div className="absolute inset-x-0 bottom-0 h-[3px] bg-black" />
+      <div className="absolute inset-x-0 bottom-0 h-[3px]" style={{backgroundColor: "#756F6A"}} />
 
       <motion.div style={{ y, opacity }} className="w-full">
         <div className="mx-auto max-w-7xl px-6 py-32 md:py-40">

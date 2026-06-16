@@ -41,7 +41,7 @@ function ProjectSection({ project }: { project: Project }) {
       className="relative py-24 md:py-32"
       style={{ backgroundColor: project.bgColor }}
     >
-      <div className="absolute inset-x-0 bottom-0 h-[3px] bg-black" />
+      <div className="absolute inset-x-0 bottom-0 h-[3px]" style={{ backgroundColor: "#756F6A" }} />
       <div className="mx-auto max-w-7xl px-6">
         <ScrollReveal>
           <div className="flex items-center gap-4 mb-4">
