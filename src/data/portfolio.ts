@@ -1,9 +1,9 @@
 export const siteConfig = {
   name: "효빈",
   nameEn: "HYOBIN",
-  title: "Art Communicator",
-  tagline: "당신에게 닿을 문화예술을 전합니다",
-  subtitle: "이성과 감성이 균형 잡힌 아트 커뮤니케이터",
+  title: "Art Messenger",
+  tagline: "당신에게 닿은 예술 이야기를 전합니다",
+  subtitle: "예술을 당신의 언어로 옮기는 아트 메신저",
   email: "hyobin_mo@naver.com",
   phone: "010-9852-0892",
 };

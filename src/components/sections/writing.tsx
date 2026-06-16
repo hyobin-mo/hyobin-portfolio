@@ -10,7 +10,7 @@ function SourceBadge({ source }: { source: "Blog" | "Antiegg" }) {
   return (
     <span
       className="inline-flex items-center gap-1 px-2 py-0.5 text-xs font-heading font-bold border-2 border-black rounded-[3px]"
-      style={{ backgroundColor: isBlog ? "#C7E4CA" : "#D6CD95" }}
+      style={{ backgroundColor: isBlog ? "#C9D3C0" : "#F5EBC8" }}
     >
       {isBlog ? "✍" : "🥚"} {source}
     </span>
@@ -27,14 +27,14 @@ export function WritingSection() {
           <div className="flex items-center gap-4 mb-4">
             <span
               className="font-heading font-bold text-sm px-3 py-1 border-2 border-black rounded-[4px] shadow-brutal-sm"
-              style={{ backgroundColor: "#D6CD95" }}
+              style={{ backgroundColor: "#F5EBC8" }}
             >
               04
             </span>
             <h2 className="font-heading font-bold text-4xl md:text-5xl">ARTICLE</h2>
           </div>
           <p className="text-base mb-12 max-w-xl" style={{ color: "#756F6A" }}>
-            아트 커뮤니케이터의 시선으로 쓴 블로그와 안티에그 아티클
+            아트 메신저의 시선으로 쓴 블로그와 안티에그 아티클
           </p>
         </ScrollReveal>
 
@@ -61,7 +61,7 @@ export function WritingSection() {
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 font-heading font-bold text-sm border-2 border-black rounded-[4px] shadow-brutal-sm brutal-hover"
-              style={{ backgroundColor: "#C7E4CA" }}
+              style={{ backgroundColor: "#C9D3C0" }}
             >
               ✍ 네이버 블로그 전체보기
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3">
@@ -73,7 +73,7 @@ export function WritingSection() {
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 font-heading font-bold text-sm border-2 border-black rounded-[4px] shadow-brutal-sm brutal-hover"
-              style={{ backgroundColor: "#D6CD95" }}
+              style={{ backgroundColor: "#F5EBC8" }}
             >
               🥚 안티에그 아티클 전체보기
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3">
@@ -88,7 +88,7 @@ export function WritingSection() {
 }
 
 function ArticleCard({ article, index }: { article: typeof articles[0]; index: number }) {
-  const accentColors = ["#C7E4CA", "#D6CD95", "#F0EFEB", "#D6CD95", "#C7E4CA", "#F0EFEB"];
+  const accentColors = ["#C9D3C0", "#F5EBC8", "#F0EFEB", "#F5EBC8", "#C9D3C0", "#F0EFEB"];
   const accentColor = accentColors[index % accentColors.length];
 
   return (

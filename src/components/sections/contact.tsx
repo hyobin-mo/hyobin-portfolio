@@ -42,7 +42,7 @@ export function ContactSection() {
                       <p className="font-heading">@hyo_b.m</p>
                     </div>
                   </a>
-                  <a href="https://blog.naver.com/hyo_bm" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 p-4 border-2 border-black rounded-[5px] shadow-brutal-sm brutal-hover font-bold" style={{backgroundColor: "#C7E4CA"}}>
+                  <a href="https://blog.naver.com/hyo_bm" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 p-4 border-2 border-black rounded-[5px] shadow-brutal-sm brutal-hover font-bold" style={{backgroundColor: "#C9D3C0"}}>
                     <span className="w-10 h-10 flex items-center justify-center border-2 border-black bg-white rounded-[4px] text-lg">
                       ✍
                     </span>
@@ -51,7 +51,7 @@ export function ContactSection() {
                       <p className="font-heading">blog.naver.com/hyo_bm</p>
                     </div>
                   </a>
-                  <a href="https://antiegg.kr/author/hyobm/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 p-4 border-2 border-black rounded-[5px] shadow-brutal-sm brutal-hover font-bold" style={{backgroundColor: "#D6CD95"}}>
+                  <a href="https://antiegg.kr/author/hyobm/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 p-4 border-2 border-black rounded-[5px] shadow-brutal-sm brutal-hover font-bold" style={{backgroundColor: "#F5EBC8"}}>
                     <span className="w-10 h-10 flex items-center justify-center border-2 border-black bg-white rounded-[4px] text-lg">
                       🥚
                     </span>

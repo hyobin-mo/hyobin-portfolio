@@ -74,7 +74,7 @@ export function AboutSection() {
                 기획하고, 소통하고, 실행합니다.
               </p>
               <p className="text-base leading-relaxed" style={{ color: "#756F6A" }}>
-                이성과 감성이 균형 잡힌 아트 커뮤니케이터입니다.
+                예술을 당신의 언어로 옮기는 아트 메신저입니다.
                 수림문화재단 전략기획부에서 서포터즈·PM·사업담당자를 거쳐 연간 사업 기획을 총괄했고,
                 아트센터이다에서 프랑스 예술가와 협업하는 국제 교육 프로그램을 운영했습니다.
               </p>
@@ -119,7 +119,7 @@ export function AboutSection() {
                   <div className="flex items-center justify-between mb-4">
                     <span
                       className="text-xs font-heading font-bold px-2 py-0.5 border-2 border-black rounded-[3px]"
-                      style={{ backgroundColor: "#D6CD95" }}
+                      style={{ backgroundColor: "#F5EBC8" }}
                     >
                       {card.number}
                     </span>

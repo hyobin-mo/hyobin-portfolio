@@ -118,10 +118,10 @@ export function HeroSection() {
                   <p className="font-heading text-sm text-fg/60 mt-1">{siteConfig.title}</p>
                 </div>
                 <div className="flex gap-2">
-                  <span className="px-3 py-1 text-xs font-bold border-2 border-black rounded-full" style={{backgroundColor: "#D6CD95"}}>
+                  <span className="px-3 py-1 text-xs font-bold border-2 border-black rounded-full" style={{backgroundColor: "#F5EBC8"}}>
                     기획
                   </span>
-                  <span className="px-3 py-1 text-xs font-bold border-2 border-black rounded-full" style={{backgroundColor: "#C7E4CA"}}>
+                  <span className="px-3 py-1 text-xs font-bold border-2 border-black rounded-full" style={{backgroundColor: "#C9D3C0"}}>
                     소통
                   </span>
                   <span className="px-3 py-1 text-xs font-bold border-2 border-black rounded-full" style={{backgroundColor: "#F0EFEB"}}>
@@ -132,7 +132,7 @@ export function HeroSection() {
                 <motion.div
                   className="absolute -top-4 -right-4 w-16 h-16 border-3 border-black
                               rounded-full flex items-center justify-center font-heading font-bold text-sm"
-                  style={{ backgroundColor: "#D6CD95", color: "#2A2522" }}
+                  style={{ backgroundColor: "#F5EBC8", color: "#2A2522" }}
                   animate={{ rotate: [0, 10, -10, 0] }}
                   transition={{ repeat: Infinity, duration: 4, ease: "easeInOut" }}
                 >

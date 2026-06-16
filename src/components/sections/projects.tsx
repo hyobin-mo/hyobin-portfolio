@@ -19,7 +19,7 @@ function DetailCard({ detail }: { detail: ProjectDetail }) {
         {detail.highlights.map((h) => (
           <span
             key={h}
-            className="px-3 py-1 text-xs font-bold border-2 border-black rounded-full" style={{backgroundColor: "#D6CD95"}}
+            className="px-3 py-1 text-xs font-bold border-2 border-black rounded-full" style={{backgroundColor: "#F5EBC8"}}
           >
             {h}
           </span>

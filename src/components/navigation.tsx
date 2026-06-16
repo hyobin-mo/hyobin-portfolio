@@ -73,7 +73,7 @@ export function Navigation() {
               className="ml-2 px-5 py-2 font-heading font-bold text-sm
                          border-2 border-black rounded-[4px]
                          shadow-brutal-sm brutal-hover"
-              style={{backgroundColor: "#D6CD95"}}
+              style={{backgroundColor: "#F5EBC8"}}
             >
               Contact
             </button>
@@ -128,7 +128,7 @@ export function Navigation() {
                 className="mt-4 px-8 py-4 font-heading font-bold text-xl
                            border-3 border-black rounded-[5px]
                            shadow-brutal brutal-hover"
-                style={{backgroundColor: "#D6CD95"}}
+                style={{backgroundColor: "#F5EBC8"}}
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: navItems.length * 0.1 }}
