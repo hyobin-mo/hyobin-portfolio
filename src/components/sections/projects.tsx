@@ -10,7 +10,7 @@ function DetailCard({ detail }: { detail: ProjectDetail }) {
     <BrutalCard className="p-6 md:p-8 h-full flex flex-col" color="bg-white">
       <h4 className="font-heading font-bold text-xl mb-2">{detail.title}</h4>
       {detail.concept && (
-        <p className="text-sm font-bold opacity-60 mb-3">{detail.concept}</p>
+        <p className="text-sm font-bold opacity-60 mb-3 whitespace-pre-line">{detail.concept}</p>
       )}
       {detail.story && (
         <p className="text-base mb-4 leading-relaxed flex-grow">{detail.story}</p>

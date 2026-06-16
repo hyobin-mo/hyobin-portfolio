@@ -9,16 +9,13 @@ export function ContactSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <ScrollReveal>
             <div className="space-y-6">
-              <div className="flex items-center gap-4 mb-4">
-                <span className="font-heading font-bold text-sm px-3 py-1 border-2 border-black rounded-[4px] shadow-brutal-sm" style={{ backgroundColor: "#756F6A", color: "#FFFFFF" }}>
-                  05
-                </span>
+              <div className="mb-4">
                 <h2 className="font-heading font-bold text-4xl md:text-5xl text-white">
                   CONTACT
                 </h2>
               </div>
               <p className="text-xl md:text-2xl font-bold text-white/60 max-w-md">
-                모두에게 닿을 문화예술을 전합니다.
+                모두에게 닿을 예술을 전합니다.
                 <br />
                 당신의 이야기를 들려주세요.
               </p>
