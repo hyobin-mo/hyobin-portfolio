@@ -18,11 +18,11 @@ const notoSansKR = Noto_Sans_KR({
 });
 
 export const metadata: Metadata = {
-  title: "효빈 | Art Communicator Portfolio",
+  title: "효빈 | Art Messenger Portfolio",
   description:
-    "당신이 사랑할 문화예술을 전하는 아트 커뮤니케이터 효빈의 포트폴리오. 전시 기획, 도슨트, 문화예술 콘텐츠.",
+    "당신에게 닿을 예술 이야기를 전합니다. 예술을 당신의 언어로 옮기는 아트 메신저 모효빈의 포트폴리오.",
   keywords: [
-    "아트 커뮤니케이터",
+    "아트 메신저",
     "문화예술 기획",
     "전시 기획",
     "도슨트",
@@ -31,8 +31,8 @@ export const metadata: Metadata = {
     "효빈",
   ],
   openGraph: {
-    title: "효빈 | Art Communicator Portfolio",
-    description: "당신이 사랑할 문화예술을 전하는 아트 커뮤니케이터",
+    title: "효빈 | Art Messenger Portfolio",
+    description: "당신에게 닿을 예술 이야기를 전합니다.",
     type: "website",
     locale: "ko_KR",
   },
