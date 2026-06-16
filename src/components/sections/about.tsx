@@ -63,7 +63,7 @@ export function AboutSection() {
 
         <ScrollReveal>
           <div className="flex items-center gap-4 mb-12">
-            <span className="font-heading font-bold text-sm px-3 py-1 border-2 border-black rounded-[4px] shadow-brutal-sm !text-white" style={badgeStyle}>
+            <span className="font-heading font-bold text-sm px-3 py-1 border-2 border-black rounded-[4px] shadow-brutal-sm" style={{ ...badgeStyle, color: "white" }}>
               00
             </span>
             <h2 className="font-heading font-bold text-4xl md:text-5xl text-black">ABOUT</h2>
@@ -146,8 +146,8 @@ export function AboutSection() {
                 >
                   <div className="flex items-center justify-between mb-4">
                     <span
-                      className="text-xs font-heading font-bold px-2 py-0.5 border-2 border-black rounded-[3px] !text-white"
-                      style={badgeStyle}
+                      className="text-xs font-heading font-bold px-2 py-0.5 border-2 border-black rounded-[3px]"
+                      style={{ ...badgeStyle, color: "white" }}
                     >
                       {card.number}
                     </span>

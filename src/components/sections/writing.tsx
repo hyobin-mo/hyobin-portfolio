@@ -26,8 +26,8 @@ export function WritingSection() {
         <ScrollReveal>
           <div className="flex items-center gap-4 mb-4">
             <span
-              className="font-heading font-bold text-sm px-3 py-1 border-2 border-black rounded-[4px] shadow-brutal-sm !text-white"
-              style={{ backgroundColor: "#756F6A" }}
+              className="font-heading font-bold text-sm px-3 py-1 border-2 border-black rounded-[4px] shadow-brutal-sm"
+              style={{ backgroundColor: "#756F6A", color: "white" }}
             >
               04
             </span>
