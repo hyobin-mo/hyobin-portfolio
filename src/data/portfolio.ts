@@ -182,8 +182,8 @@ export const articles: Article[] = [
     external: true,
   },
   {
-    title: "호랑이와 불교 미술, 박그림",
-    description: "국립현대미술관이 선택한 퀴어 불화",
+    title: "국립현대미술관이 선택한 퀴어 불화",
+    description: "호랑이와 불교 미술, 박그림",
     date: "2026.3.",
     tags: ["아트로그", "작가소개"],
     source: "Blog",
@@ -236,12 +236,12 @@ export const articles: Article[] = [
     external: true,
   },
   {
-    title: "세상에서 가장 달콤한 발전",
-    description: "라고나르 〈사랑의 단계 Les Progrès de l'amour〉",
-    date: "2026.3.",
-    tags: ["아트", "고전작품"],
+    title: "타인의 관계를 훔쳐보는 시선들",
+    description: "호퍼부터 뒤샹까지 예술이 포착한 관음의 경계",
+    date: "2026.4.",
+    tags: ["아트", "근현대미술"],
     source: "Antiegg",
-    href: "https://antiegg.kr/32743/",
+    href: "https://antiegg.kr/34177/",
     external: true,
   },
   {
