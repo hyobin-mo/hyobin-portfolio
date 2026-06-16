@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { usePathname, useRouter } from "next/navigation";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import { useLenis } from "lenis/react";
 import { siteConfig, navItems } from "@/data/portfolio";
 
@@ -101,45 +101,30 @@ export function Navigation() {
         </div>
       </motion.nav>
 
-      <AnimatePresence>
-        {mobileOpen && (
-          <motion.div
-            className="fixed inset-0 z-40 md:hidden"
+      {mobileOpen && (
+          <div
+            className="fixed inset-0 z-40 md:hidden flex flex-col items-center justify-center gap-8"
             style={{ backgroundColor: "#F0EFEB" }}
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -20 }}
-            transition={{ duration: 0.2 }}
           >
-            <div className="flex flex-col items-center justify-center h-full gap-6">
-              {navItems.map((item, i) => (
-                <motion.button
-                  key={item.href}
-                  onClick={() => handleNavClick(item.href)}
-                  className="font-heading font-bold text-3xl tracking-tight text-black"
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: i * 0.1 }}
-                >
-                  {item.label}
-                </motion.button>
-              ))}
-              <motion.button
-                onClick={() => handleNavClick("#contact")}
-                className="mt-4 px-8 py-4 font-heading font-bold text-xl text-black
-                           border-3 border-black rounded-[5px]
-                           shadow-brutal brutal-hover"
-                style={{backgroundColor: "#F5EBC8"}}
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: navItems.length * 0.1 }}
+            {navItems.map((item) => (
+              <button
+                key={item.href}
+                onClick={() => handleNavClick(item.href)}
+                className="font-heading font-bold text-3xl tracking-tight text-black"
               >
-                CONTACT
-              </motion.button>
-            </div>
-          </motion.div>
-        )}
-      </AnimatePresence>
+                {item.label}
+              </button>
+            ))}
+            <button
+              onClick={() => handleNavClick("#contact")}
+              className="mt-4 px-8 py-4 font-heading font-bold text-xl text-black
+                         border-3 border-black rounded-[5px]
+                         shadow-brutal"
+              style={{ backgroundColor: "#F5EBC8" }}
+            >
+              CONTACT
+            </button>
+      )}
     </>
   );
 }
