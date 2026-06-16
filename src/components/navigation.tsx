@@ -102,28 +102,27 @@ export function Navigation() {
       </motion.nav>
 
       {mobileOpen && (
-          <div
-            className="fixed inset-0 z-40 md:hidden flex flex-col items-center justify-center gap-8"
-            style={{ backgroundColor: "#F0EFEB" }}
-          >
-            {navItems.map((item) => (
-              <button
-                key={item.href}
-                onClick={() => handleNavClick(item.href)}
-                className="font-heading font-bold text-3xl tracking-tight text-black"
-              >
-                {item.label}
-              </button>
-            ))}
+        <div
+          className="fixed inset-0 z-[60] flex flex-col items-center justify-center gap-8"
+          style={{ backgroundColor: "#F0EFEB" }}
+        >
+          {navItems.map((item) => (
             <button
-              onClick={() => handleNavClick("#contact")}
-              className="mt-4 px-8 py-4 font-heading font-bold text-xl text-black
-                         border-3 border-black rounded-[5px]
-                         shadow-brutal"
-              style={{ backgroundColor: "#F5EBC8" }}
+              key={item.href}
+              onClick={() => handleNavClick(item.href)}
+              className="font-heading font-bold text-3xl tracking-tight text-black"
             >
-              CONTACT
+              {item.label}
             </button>
+          ))}
+          <button
+            onClick={() => handleNavClick("#contact")}
+            className="mt-4 px-8 py-4 font-heading font-bold text-xl text-black border-3 border-black rounded-[5px] shadow-brutal"
+            style={{ backgroundColor: "#F5EBC8" }}
+          >
+            CONTACT
+          </button>
+        </div>
       )}
     </>
   );
