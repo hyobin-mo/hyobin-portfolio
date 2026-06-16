@@ -31,8 +31,8 @@ const aboutCards = [
 ];
 
 const education = [
-  { period: "2022.3 — 현재", org: "홍익대학교 미술대학원 예술기획 전공 (석사과정)" },
-  { period: "2013.2 — 2018.2", org: "숙명여자대학교 역사문화학 전공" },
+  { period: "2022.3 — 현재", org: "홍익대학교 미술대학원", role: "예술기획 전공 (석사과정)" },
+  { period: "2013.2 — 2018.2", org: "숙명여자대학교", role: "역사문화학 전공" },
 ];
 
 const work = [
@@ -106,7 +106,9 @@ export function AboutSection() {
                     {education.map((e, i) => (
                       <div key={i} className="flex flex-col gap-0.5 pb-4 border-b border-black/10 last:border-0 last:pb-0">
                         <span className="text-xs font-bold" style={{ color: "#756F6A" }}>{e.period}</span>
-                        <span className="font-heading font-bold text-sm">{e.org}</span>
+                        <span className="font-heading font-bold text-sm">
+                          {e.org} <span className="text-xs font-normal" style={{ color: "#756F6A" }}>{e.role}</span>
+                        </span>
                       </div>
                     ))}
                   </div>
@@ -119,8 +121,9 @@ export function AboutSection() {
                     {work.map((w, i) => (
                       <div key={i} className="flex flex-col gap-0.5 pb-4 border-b border-black/10 last:border-0 last:pb-0">
                         <span className="text-xs font-bold" style={{ color: "#756F6A" }}>{w.period}</span>
-                        <span className="font-heading font-bold text-sm">{w.org}</span>
-                        <span className="text-xs" style={{ color: "#756F6A" }}>{w.role}</span>
+                        <span className="font-heading font-bold text-sm">
+                          {w.org} <span className="text-xs font-normal" style={{ color: "#756F6A" }}>{w.role}</span>
+                        </span>
                       </div>
                     ))}
                   </div>
