@@ -103,8 +103,21 @@ export function Navigation() {
 
       {mobileOpen && (
         <div
-          className="fixed inset-0 z-[60] flex flex-col items-center justify-center gap-8"
-          style={{ backgroundColor: "#F0EFEB" }}
+          style={{
+            position: "fixed",
+            top: 0,
+            left: 0,
+            width: "100vw",
+            height: "100vh",
+            zIndex: 60,
+            backgroundColor: "#F0EFEB",
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            justifyContent: "center",
+            gap: "2rem",
+            overflow: "hidden",
+          }}
         >
           {navItems.map((item) => (
             <button
