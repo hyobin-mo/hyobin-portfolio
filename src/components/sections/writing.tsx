@@ -43,11 +43,11 @@ export function WritingSection() {
             <ScrollReveal key={`${article.source}-${i}`} delay={i * 0.08}>
               {article.external ? (
                 <a href={article.href} target="_blank" rel="noopener noreferrer" className="block h-full">
-                  <ArticleCard article={article} index={i} />
+                  <ArticleCard article={article} />
                 </a>
               ) : (
                 <Link href={article.href} className="block h-full">
-                  <ArticleCard article={article} index={i} />
+                  <ArticleCard article={article} />
                 </Link>
               )}
             </ScrollReveal>
@@ -87,9 +87,8 @@ export function WritingSection() {
   );
 }
 
-function ArticleCard({ article, index }: { article: typeof articles[0]; index: number }) {
-  const accentColors = ["#C9D3C0", "#F5EBC8", "#F0EFEB", "#F5EBC8", "#C9D3C0", "#F0EFEB", "#C9D3C0", "#F5EBC8", "#F0EFEB"];
-  const accentColor = accentColors[index % accentColors.length];
+function ArticleCard({ article }: { article: typeof articles[0] }) {
+  const accentColor = article.source === "Blog" ? "#C9D3C0" : "#F5EBC8";
 
   return (
     <BrutalCard className="p-0 overflow-hidden h-full flex flex-col" color="bg-white">
