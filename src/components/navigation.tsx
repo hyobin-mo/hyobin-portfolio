@@ -104,7 +104,8 @@ export function Navigation() {
       <AnimatePresence>
         {mobileOpen && (
           <motion.div
-            className="fixed inset-0 z-40 bg-bg border-3 border-black md:hidden"
+            className="fixed inset-0 z-40 md:hidden"
+            style={{ backgroundColor: "#F0EFEB" }}
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
@@ -115,7 +116,7 @@ export function Navigation() {
                 <motion.button
                   key={item.href}
                   onClick={() => handleNavClick(item.href)}
-                  className="font-heading font-bold text-3xl tracking-tight"
+                  className="font-heading font-bold text-3xl tracking-tight text-black"
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: i * 0.1 }}
@@ -125,7 +126,7 @@ export function Navigation() {
               ))}
               <motion.button
                 onClick={() => handleNavClick("#contact")}
-                className="mt-4 px-8 py-4 font-heading font-bold text-xl
+                className="mt-4 px-8 py-4 font-heading font-bold text-xl text-black
                            border-3 border-black rounded-[5px]
                            shadow-brutal brutal-hover"
                 style={{backgroundColor: "#F5EBC8"}}
