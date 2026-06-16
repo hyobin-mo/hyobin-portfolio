@@ -16,7 +16,7 @@ const aboutCards = [
     id: "connect",
     number: "02",
     title: "CONNECT",
-    subtitle: "콘텐츠 커뮤니케이션력",
+    subtitle: "콘텐츠 커뮤니케이션 능력",
     detail: "도슨트 · 전시 운영 스태프 · 교육 프로그램 보조강사",
     href: "#connect",
   },
@@ -24,7 +24,7 @@ const aboutCards = [
     id: "action",
     number: "03",
     title: "COOPERATE",
-    subtitle: "함께 만드는 협업력",
+    subtitle: "함께 만들어 가는 협업력",
     detail: "블로그 운영 · 안티에그 · B2B협업",
     href: "#action",
   },
@@ -158,7 +158,7 @@ export function AboutSection() {
                   <h3 className="font-heading font-bold text-2xl md:text-3xl mb-2 text-black">
                     {card.title}
                   </h3>
-                  <p className="font-bold text-sm mb-3" style={{ color: "#756F6A" }}>{card.subtitle}</p>
+                  <p className="font-bold text-sm mb-3 text-black">{card.subtitle}</p>
                   <p className="text-xs leading-relaxed" style={{ color: "#756F6A" }}>{card.detail}</p>
                 </BrutalCard>
               </button>
