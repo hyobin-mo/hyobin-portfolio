@@ -37,7 +37,7 @@ export function Footer() {
             &copy; {new Date().getFullYear()} {siteConfig.name}. All rights reserved.
           </p>
           <p className="mt-1">
-            당신에게 닿을 문화예술을 전하는 아트 커뮤니케이터, 효빈입니다.
+            당신에게 닿을 예술 이야기를 전합니다.
           </p>
         </div>
       </div>

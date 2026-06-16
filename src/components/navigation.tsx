@@ -75,7 +75,7 @@ export function Navigation() {
                          shadow-brutal-sm brutal-hover"
               style={{backgroundColor: "#F5EBC8"}}
             >
-              Contact
+              CONTACT
             </button>
           </div>
 
@@ -133,7 +133,7 @@ export function Navigation() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: navItems.length * 0.1 }}
               >
-                Contact
+                CONTACT
               </motion.button>
             </div>
           </motion.div>
