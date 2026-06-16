@@ -27,7 +27,7 @@ export function WritingSection() {
           <div className="flex items-center gap-4 mb-4">
             <span
               className="font-heading font-bold text-sm px-3 py-1 border-2 border-black rounded-[4px] shadow-brutal-sm"
-              style={{ backgroundColor: "#F5EBC8" }}
+              style={{ backgroundColor: "#756F6A", color: "#F0EFEB" }}
             >
               04
             </span>

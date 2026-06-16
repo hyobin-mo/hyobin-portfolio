@@ -45,7 +45,7 @@ function ProjectSection({ project }: { project: Project }) {
       <div className="mx-auto max-w-7xl px-6">
         <ScrollReveal>
           <div className="flex items-center gap-4 mb-4">
-            <span className="font-heading font-bold text-sm px-3 py-1 border-2 border-black bg-white rounded-[4px] shadow-brutal-sm">
+            <span className="font-heading font-bold text-sm px-3 py-1 border-2 border-black rounded-[4px] shadow-brutal-sm" style={{ backgroundColor: "#756F6A", color: "#F0EFEB" }}>
               {project.number}
             </span>
            <h2 className="font-heading font-bold text-4xl md:text-5xl text-black">

@@ -9,7 +9,7 @@ const aboutCards = [
     number: "01",
     title: "CURATE",
     subtitle: "현장 이해 기반 기획력",
-    detail: "수림문화재단 · 아트센터이다 · 학고재 · 안티에그",
+    detail: "수림문화재단 · 아트센터이다 · 학고재",
     href: "#curate",
   },
   {
@@ -17,25 +17,33 @@ const aboutCards = [
     number: "02",
     title: "CONNECT",
     subtitle: "콘텐츠 커뮤니케이션력",
-    detail: "도슨트 · 전시 운영 스태프 · 교육 프로그램 보조강사 · 서포터즈",
+    detail: "도슨트 · 전시 운영 스태프 · 교육 프로그램 보조강사",
     href: "#connect",
   },
   {
     id: "action",
     number: "03",
-    title: "ACTION",
-    subtitle: "프로젝트 실행력",
-    detail: "블로그 운영 · 문화예술 스터디 · SNS 기관 협업 · 해외 취재",
+    title: "COOPERATE",
+    subtitle: "함께 만드는 협업능력",
+    detail: "블로그 운영 · 안티에그 · B2B협업",
     href: "#action",
   },
 ];
 
-const careers = [
-  { period: "2023 — 현재", role: "매거진 파트너 에디터", org: "안티에그" },
-  { period: "2021 — 2024", role: "전략기획부 사원", org: "수림문화재단" },
-  { period: "2022", role: "교육팀 에듀케이터", org: "아트센터이다" },
-  { period: "2016 — 2018", role: "도슨트", org: "백범김구기념관 · KF갤러리 외" },
+const education = [
+  { period: "2022.3 — 현재", role: "예술기획 전공 (석사과정)", org: "홍익대학교 미술대학원" },
+  { period: "2013.2 — 2018.2", role: "역사문화학 전공", org: "숙명여자대학교" },
 ];
+
+const work = [
+  { period: "2025.12 — 현재", role: "매거진 파트너 에디터", org: "안티에그" },
+  { period: "2019.12 — 2020.2", role: "교육팀 팀원", org: "(주)아트센터이다" },
+  { period: "2019.11 — 2019.12", role: "운영지원팀 사원", org: "(주)엔비전스" },
+  { period: "2019.1 — 2019.10", role: "기획전략부 사원", org: "(재)수림문화재단" },
+  { period: "2018.11 — 2019.1", role: "전시팀 인턴", org: "학고재 갤러리" },
+];
+
+const badgeStyle = { backgroundColor: "#756F6A", color: "#F0EFEB" };
 
 export function AboutSection() {
   const lenis = useLenis();
@@ -55,14 +63,13 @@ export function AboutSection() {
 
         <ScrollReveal>
           <div className="flex items-center gap-4 mb-12">
-            <span className="font-heading font-bold text-sm px-3 py-1 border-2 border-black bg-white rounded-[4px] shadow-brutal-sm">
+            <span className="font-heading font-bold text-sm px-3 py-1 border-2 border-black rounded-[4px] shadow-brutal-sm" style={badgeStyle}>
               00
             </span>
             <h2 className="font-heading font-bold text-4xl md:text-5xl">ABOUT</h2>
           </div>
         </ScrollReveal>
 
-        {/* 소개 + 경력 */}
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 mb-10">
           <ScrollReveal delay={0.1} className="lg:col-span-3">
             <BrutalCard className="p-8 md:p-10 h-full" color="bg-white">
@@ -70,41 +77,60 @@ export function AboutSection() {
                 INTRO
               </p>
               <p className="font-heading font-bold text-xl md:text-2xl leading-snug mb-6">
-                문화예술 현장을 이해하여,<br />
-                기획하고, 소통하고, 실행합니다.
+                당신에게 닿을<br />
+                예술 이야기를 전합니다.
+              </p>
+              <p className="text-base leading-relaxed mb-3" style={{ color: "#756F6A" }}>
+                예술을 당신의 언어로 옮기는 아트 메신저, 모효빈입니다.
+              </p>
+              <p className="text-base leading-relaxed mb-3" style={{ color: "#756F6A" }}>
+                수림문화재단 서포터즈로 시작해 프로젝트 매니저와 전략기획부 사원을 거치며 연간 사업 기획을 총괄했습니다. 아트센터이다에서는 프랑스 작가 '에르베 튈레'와 협업하여 국제 교육 프로그램을 기획하고 운영하며 다문화적 기획력을 넓혔습니다.
+              </p>
+              <p className="text-base leading-relaxed mb-3" style={{ color: "#756F6A" }}>
+                예술이 관객에게 닿는 현장에도 늘 함께했습니다. 백범김구기념관, KF갤러리, 아뜰리에 에르메스 등 주요 문화예술 기관에서 한국어와 영어로 전시 해설을 진행하고 교육 프로그램 운영을 이끌었습니다.
               </p>
               <p className="text-base leading-relaxed" style={{ color: "#756F6A" }}>
-                예술을 당신의 언어로 옮기는 아트 메신저입니다.
-                수림문화재단 전략기획부에서 서포터즈·PM·사업담당자를 거쳐 연간 사업 기획을 총괄했고,
-                아트센터이다에서 프랑스 예술가와 협업하는 국제 교육 프로그램을 운영했습니다.
-              </p>
-              <p className="text-base leading-relaxed mt-3" style={{ color: "#756F6A" }}>
-                백범김구기념관, KF갤러리, 아뜰리에 에르메스 등에서 한·영 양어로 도슨트 활동을 이어왔으며,
-                안티에그 매거진 파트너 에디터로 문화예술 콘텐츠를 기획·발행하고 있습니다.
-                블로그 「아트로그」·「모데라토」를 통해 현장 취재와 글쓰기를 계속합니다.
+                현재는 문화예술 매거진 '안티에그'의 파트너 에디터로 아티클을 기획 및 발행하고 있으며, 블로그 시리즈 「아트로그」와 「모데라토」를 통해 생생한 현장의 분위기가 담긴 예술 이야기를 꾸준히 전하고 있습니다.
               </p>
             </BrutalCard>
           </ScrollReveal>
 
           <ScrollReveal delay={0.2} className="lg:col-span-2">
             <BrutalCard className="p-8 h-full" color="bg-white">
-              <p className="font-heading font-bold text-xs tracking-widest mb-6" style={{ color: "#756F6A" }}>
-                CAREER
-              </p>
-              <div className="space-y-5">
-                {careers.map((c, i) => (
-                  <div key={i} className="flex flex-col gap-0.5 pb-4 border-b border-black/10 last:border-0 last:pb-0">
-                    <span className="text-xs font-bold" style={{ color: "#756F6A" }}>{c.period}</span>
-                    <span className="font-heading font-bold text-base">{c.role}</span>
-                    <span className="text-sm" style={{ color: "#756F6A" }}>{c.org}</span>
+              <div className="space-y-6">
+                <div>
+                  <p className="font-heading font-bold text-xs tracking-widest mb-4" style={{ color: "#756F6A" }}>
+                    EDUCATION
+                  </p>
+                  <div className="space-y-4">
+                    {education.map((e, i) => (
+                      <div key={i} className="flex flex-col gap-0.5 pb-4 border-b border-black/10 last:border-0 last:pb-0">
+                        <span className="text-xs font-bold" style={{ color: "#756F6A" }}>{e.period}</span>
+                        <span className="font-heading font-bold text-sm">{e.org}</span>
+                        <span className="text-xs" style={{ color: "#756F6A" }}>{e.role}</span>
+                      </div>
+                    ))}
                   </div>
-                ))}
+                </div>
+                <div>
+                  <p className="font-heading font-bold text-xs tracking-widest mb-4" style={{ color: "#756F6A" }}>
+                    WORK
+                  </p>
+                  <div className="space-y-4">
+                    {work.map((w, i) => (
+                      <div key={i} className="flex flex-col gap-0.5 pb-4 border-b border-black/10 last:border-0 last:pb-0">
+                        <span className="text-xs font-bold" style={{ color: "#756F6A" }}>{w.period}</span>
+                        <span className="font-heading font-bold text-sm">{w.org}</span>
+                        <span className="text-xs" style={{ color: "#756F6A" }}>{w.role}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
               </div>
             </BrutalCard>
           </ScrollReveal>
         </div>
 
-        {/* CURATE / CONNECT / ACTION 카드 */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {aboutCards.map((card, i) => (
             <ScrollReveal key={card.id} delay={0.1 * (i + 3)}>
@@ -119,7 +145,7 @@ export function AboutSection() {
                   <div className="flex items-center justify-between mb-4">
                     <span
                       className="text-xs font-heading font-bold px-2 py-0.5 border-2 border-black rounded-[3px]"
-                      style={{ backgroundColor: "#F5EBC8" }}
+                      style={badgeStyle}
                     >
                       {card.number}
                     </span>

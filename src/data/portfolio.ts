@@ -121,11 +121,11 @@ export const projects: Project[] = [
   {
     id: "action",
     number: "03",
-    category: "실행하다",
-    categoryEn: "ACTION",
+    category: "협업하다",
+    categoryEn: "COOPERATE",
     color: "accent-orange",
     bgColor: "#F0EFEB",
-    subtitle: "기획과 소통을 현실로 만들며 실행하다",
+    subtitle: "기획과 소통을 협업으로 연결하며 실행하다",
     role: [
       "콘텐츠 기획·제작·운영 전 과정",
       "셀프 브랜딩 및 브랜드 구축",
