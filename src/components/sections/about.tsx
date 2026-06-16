@@ -50,7 +50,7 @@ export function AboutSection() {
 
   return (
     <section id="about" className="relative py-24 md:py-32" style={{ backgroundColor: "#F0EFEB" }}>
-      <div className="absolute inset-x-0 bottom-0 h-[3px]" style={{ backgroundColor: "#756F6A" }} />
+      <div className="absolute inset-x-0 bottom-0 h-[3px] bg-black" />
       <div className="mx-auto max-w-7xl px-6">
 
         <ScrollReveal>
@@ -58,7 +58,7 @@ export function AboutSection() {
             <span className="font-heading font-bold text-sm px-3 py-1 border-2 border-black bg-white rounded-[4px] shadow-brutal-sm">
               00
             </span>
-            <h2 className="font-heading font-bold text-4xl md:text-5xl">About</h2>
+            <h2 className="font-heading font-bold text-4xl md:text-5xl">ABOUT</h2>
           </div>
         </ScrollReveal>
 
